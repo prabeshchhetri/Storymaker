@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>Assignment 1 | COMP1073 Client-Side JavaScript</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 20px;
+        }
+
+        h1, h2 {
+            color: #333;
+        }
+
+        button {
+            margin: 10px;
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+
+        p {
+            font-size: 1.2em;
+            color: #555;
+        }
+
+        #story {
+            font-size: 1.5em;
+            font-weight: bold;
+            color: #2e8b57;
+        }
+    </style>
+</head>
+<body>
+    <h1>See-N-Say Storymaker</h1>
+    <p id="studentId"></p>
+
+    <section>
+        <h2>Create Your Story</h2>
+        <button id="noun1">Noun 1</button>
+        <p id="choosenNoun1"></p>
+
+        <button id="verb">Verb</button>
+        <p id="choosenVerb"></p>
+
+        <button id="adjective">Adjective</button>
+        <p id="choosenAdjective"></p>
+
+        <button id="noun2">Noun 2</button>
+        <p id="choosenNoun2"></p>
+
+        <button id="setting">Setting</button>
+        <p id="choosenSetting"></p>
+    </section>
+
+    <section>
+        <h2>See Your Story</h2>
+        <button id="playback">Show Story</button>
+        <button id="random">Random Story</button>
+        <button id="reset">Reset</button>
+        <p id="story"></p>
+    </section>
+
+    <!-- Correctly linked JavaScript file -->
+    <script src="storymaker.js"></script>
+</body>
+</html>
